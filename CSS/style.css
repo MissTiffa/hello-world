@@ -1,14 +1,8 @@
-/*ID*/
+/*Class Selectors*/
 
-#heading {
-  color: crimson;
-  background: black;
+.Tiffany {
+  color: rgb(15, 185, 241);
 }
-#subheading {
-  color: white;
-  background: black;
-}
-p {
-  color: darkgoldenrod;
-  background: black;
+.Mich {
+  color: rgb(240, 99, 99);
 }

@@ -1,15 +1,9 @@
-/*Inheritance*/
-body {
-  font-family: "Courier New", Courier, monospace;
-  line-height: 0.5cm;
-}
-div {
-  color: darkmagenta;
-  border: 3px solid black;
+/*Last Rule And Specificity*Universal Selector*/
+* {
+  color: crimson;
 }
 h2 {
-  color: red;
-  font-weight: bolder;
-  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
   font-style: italic;
 }
+/*Universal selector sign is (*) everything will change to that color unless you add another code like above I add h2*/

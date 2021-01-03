@@ -1,19 +1,13 @@
-/*
-vh - height - percent of the screen
-vw - width - percent of the screen*/
+/*em- Relative depends on parent
+1em- 16px default browser style
+1em- base value*/
 
-* {
-  margin: 10px;
-  padding: 10px;
-  box-sizing: border-box;
+div {
+  font-size: 10px;
 }
-.banner {
-  width: 100vw;
-  height: 50vh;
-  background: blue;
+.relative {
+  font-size: 2em;
 }
-.header {
-  width: 100vw;
-  height: 50vh;
-  background: rgb(243, 75, 139);
+.absolute {
+  font-size: 32px;
 }

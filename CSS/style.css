@@ -1,15 +1,14 @@
 /*DIV Span*/
 
-.Tiffany {
+.blue {
   color: rgb(15, 185, 241);
 }
-.Mich {
+.crimson {
   color: rgb(240, 99, 99);
 }
-#title {
-  font-size: 40px;
-  font-style: italic;
+div {
+  background: black;
 }
-.lowercase {
-  font-style: normal;
+span {
+  text-transform: uppercase;
 }

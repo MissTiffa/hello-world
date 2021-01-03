@@ -1,17 +1,21 @@
-/*RGB Values*/
+/*RGBA 0-1 opacity/transparency*/
 
 #first {
-  color: rgb(255, 0, 0);
-  background-color: rgb(0, 0, 0);
+  color: rgb(100, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 #second {
-  color: rgb(0, 128, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(45, 200, 34);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 #three {
   color: rgb(0, 0, 255);
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#four {
+  color: rgb(247, 87, 24);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 body {
-  background-color: rgb(205, 92, 92);
+  background-color: rgba(205, 0, 62, 0.253);
 }

@@ -1,7 +1,12 @@
-/*font-size, width, height pixels*/
+/*Percent Values - Relative*/
 
-h1 {
-  font-size: 40px;
-  width: 300px;
-  background-color: indianred;
+.outer {
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
 }

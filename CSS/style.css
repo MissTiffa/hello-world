@@ -1,9 +1,11 @@
-/*Last Rule And Specificity*Universal Selector*/
-* {
-  color: crimson;
+/*COLOR PROPERTIES*/
+/*COLOR BACKGROUND-COLOR*/
+
+#first {
+  color: darkgoldenrod;
+  background-color: darkgrey;
 }
-h2 {
-  color: darkblue;
-  font-style: italic;
+#second {
+  color: palevioletred;
+  background-color: black;
 }
-/*Universal selector sign is (*) everything will change to that color unless you add another code like above I add h2*/

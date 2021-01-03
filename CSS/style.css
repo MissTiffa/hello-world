@@ -1,14 +1,14 @@
-/*Element Selectors*/
-body {
-  color: gold;
-}
-h1,
-h2 {
-  color: rebeccapurple;
-}
+/*ID*/
 
-/*css rule*/
-/*selectors*/
-/*declaration block*/
-/*property*/
-/*value*/
+#heading {
+  color: crimson;
+  background: black;
+}
+#subheading {
+  color: white;
+  background: black;
+}
+p {
+  color: darkgoldenrod;
+  background: black;
+}

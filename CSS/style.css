@@ -1,12 +1,13 @@
-/*Percent Values - Relative*/
+/*em- Relative depends on parent
+1em- 16px default browser style
+1em- base value*/
 
-.outer {
-  width: 500px;
-  height: 500px;
-  background: blue;
+div {
+  font-size: 10px;
 }
-.inner {
-  width: 50%;
-  height: 50%;
-  background: red;
+.relative {
+  font-size: 2em;
+}
+.absolute {
+  font-size: 32px;
 }

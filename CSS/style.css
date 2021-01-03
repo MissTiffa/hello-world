@@ -1,21 +1,7 @@
-/*RGBA 0-1 opacity/transparency*/
+/*font-size, width, height pixels*/
 
-#first {
-  color: rgb(100, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#second {
-  color: rgb(45, 200, 34);
-  background-color: rgba(0, 0, 0, 0.25);
-}
-#three {
-  color: rgb(0, 0, 255);
-  background-color: rgba(0, 0, 0, 0.3);
-}
-#four {
-  color: rgb(247, 87, 24);
-  background-color: rgba(0, 0, 0, 0.03);
-}
-body {
-  background-color: rgba(205, 0, 62, 0.253);
+h1 {
+  font-size: 40px;
+  width: 300px;
+  background-color: indianred;
 }

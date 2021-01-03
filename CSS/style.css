@@ -1,8 +1,15 @@
-/*Class Selectors*/
+/*DIV Span*/
 
 .Tiffany {
   color: rgb(15, 185, 241);
 }
 .Mich {
   color: rgb(240, 99, 99);
+}
+#title {
+  font-size: 40px;
+  font-style: italic;
+}
+.lowercase {
+  font-style: normal;
 }

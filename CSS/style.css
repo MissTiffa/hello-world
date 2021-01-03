@@ -1,13 +1,10 @@
 /*Element Selectors*/
-h1 {
-  color: purple;
-  font-size: 4rem;
+body {
+  color: gold;
 }
+h1,
 h2 {
-  color: brown;
-}
-p {
-  color: green;
+  color: rebeccapurple;
 }
 
 /*css rule*/

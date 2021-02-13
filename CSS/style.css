@@ -1,24 +1,18 @@
 /*
-line-height
-letter-spacing
-word-spacing
-text-transform
-text-decoration
+CSS Box Model
+Padding
 */
-a {
-  text-decoration: none;
-}
 h1 {
-  text-transform: capitalize;
-  text-decoration: underline;
+  background: lightcoral;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.one {
-  line-height: 1.5em;
-  text-decoration: overline;
-}
-.two {
-  letter-spacing: 5px;
-}
-.three {
-  word-spacing: 20px;
+p {
+  background: gray;
+  /*other ways making padding
+  padding: 20px;
+  padding: 30px 60px;
+  padding: 20px 40px 60px 10px;*/
 }

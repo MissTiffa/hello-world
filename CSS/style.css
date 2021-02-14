@@ -1,14 +1,9 @@
-/*Horizontal Centering*/
-body {
-  text-align: center;
-}
-.block {
-  background: darkkhaki;
+/*Block: Top Bottom Margin Respected
+Inline: Top Bottom Margin Not Respected
+*/
+div {
+  background: chartreuse;
   color: black;
-  width: 150px;
-  margin: 20px auto;
-}
-.inline {
-  background: lightseagreen;
-  color: black;
+  padding: 20px;
+  margin: 20px;
 }

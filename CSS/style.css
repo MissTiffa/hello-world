@@ -1,15 +1,17 @@
 /*
 CSS Box Model
-Margin
+Border
 */
 h1 {
   background: lightcoral;
-  margin-bottom: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgreen;
+  border-radius: 20px;
 }
 p {
-  background: gray;
-  margin-top: 0px;
-  /*other ways of margin
-margin: 50px 20px;
-margin: 100px 20px 20px 50px;*/
+  background: blue;
+  border: 13px solid;
+  border-top-color: lawngreen;
+  border-bottom-color: hotpink;
 }

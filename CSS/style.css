@@ -1,28 +1,11 @@
-/*
-Outline
-Offset
-*/
-.buttons {
-  margin: 3rem;
+/*Default Display Property
+Block: Always starts a new line and takes full width.
+Inline: Does not start and only take up as much space.*/
+.block {
+  background: darkkhaki;
+  color: black;
 }
-a {
+.inline {
   background: lightseagreen;
-  text-decoration: none;
-  padding: 1.2rem 1.5rem;
-  color: rgb(7, 7, 7);
-  text-transform: uppercase;
-  cursor: pointer;
-  margin: 10px;
-}
-#one {
-  border: 0.2rem solid crimson;
-}
-#two {
-  outline-width: 0.2rem;
-  outline-style: solid;
-  outline-color: crimson;
-  outline-offset: 10px;
-  /*another way for outline
-  outline-offset: 10px;
-  outline-offset: -10px;*/
+  color: black;
 }

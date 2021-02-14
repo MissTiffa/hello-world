@@ -1,17 +1,28 @@
 /*
-CSS Box Model
-Border
+Outline
+Offset
 */
-h1 {
-  background: lightcoral;
-  border-style: solid;
-  border-width: 10px;
-  border-color: lightgreen;
-  border-radius: 20px;
+.buttons {
+  margin: 3rem;
 }
-p {
-  background: blue;
-  border: 13px solid;
-  border-top-color: lawngreen;
-  border-bottom-color: hotpink;
+a {
+  background: lightseagreen;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: rgb(7, 7, 7);
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px;
+}
+#one {
+  border: 0.2rem solid crimson;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: crimson;
+  outline-offset: 10px;
+  /*another way for outline
+  outline-offset: 10px;
+  outline-offset: -10px;*/
 }

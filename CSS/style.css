@@ -1,21 +1,11 @@
-/* Display, Opacity, and Visibility Property*/
+/* Background: How to add background as an image in CSS*/
 div {
-  background: blue;
-  margin: 10px;
-  color: white;
+  height: 400px;
+  color: red;
 }
-.none {
-  display: none;
+.beach-img {
+  background: url("images/beach.jpg");
 }
-.opacity {
-  opacity: 1;
-}
-.opacity-5 {
-  opacity: 0.25;
-}
-.opacity-0 {
-  opacity: 0;
-}
-.visibility {
-  visibility: hidden;
+.bunny-img {
+  background: url("./bunny.jpg");
 }

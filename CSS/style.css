@@ -1,31 +1,23 @@
-/* Linear-Gradient*/
+/* Combining Linear-Gradient and Background*/
+
 div {
-  width: 150px;
-  height: 150px;
+  min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: black;
 }
-.one {
-  background: linear-gradient(blue, hotpink);
+.banner {
+  background: url("./images/beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-.two {
-  background: linear-gradient(to top, blue, hotpink);
-}
-.three {
-  background: linear-gradient(315deg, blue, hotpink);
-}
-.four {
-  background: linear-gradient(to top right, blue, hotpink);
-}
-.five {
-  background: linear-gradient(
-    rgba(80, 4, 245, 0.925),
-    rgba(245, 4, 145, 0.925)
-  );
-}
-.six {
-  background: linear-gradient(
-    315deg,
-    rgba(80, 4, 245, 0.925),
-    rgba(245, 4, 145, 0.925)
-  );
+.header {
+  background: linear-gradient(rgb(243, 247, 6), rgba(0, 0, 0, 0));
+  border: 5px green solid;
+  border-style: dotted;
 }

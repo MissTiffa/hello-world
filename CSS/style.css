@@ -1,15 +1,21 @@
-/* Background-position*/
+/* Background-attachment*/
 div {
   height: 500px;
   color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .beach-img {
   background: url("images/beach.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .bunny-img {
   border: 2px solid red;
   background: url("./bunny.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }

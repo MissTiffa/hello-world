@@ -1,15 +1,15 @@
-/* Background-size*/
+/* Background-position*/
 div {
   height: 500px;
   color: red;
 }
 .beach-img {
   background: url("images/beach.jpg");
-  background-repeat: round;
   background-size: cover;
 }
 .bunny-img {
   border: 2px solid red;
   background: url("./bunny.jpg");
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -1,11 +1,17 @@
-/* Background: How to add background as an image in CSS*/
+/* Last Rule Order (which ever last(same) code will be respected*/
 div {
-  height: 400px;
+  height: 500px;
   color: red;
 }
 .beach-img {
   background: url("images/beach.jpg");
+  background-repeat: round;
 }
 .bunny-img {
   background: url("./bunny.jpg");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
 }

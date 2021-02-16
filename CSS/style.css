@@ -1,34 +1,42 @@
-/*Position Fixed*/
-button {
-  background: chartreuse;
-  font-size: 40px;
-  color: #e7046e;
-  position: fixed;
-  top: 0;
-  right: 0;
+/*Media Queries
+Responsive Design
+Style Elements On Different Screen Sizes
+min-width: --starting from
+max-width: --up to
+Mobile First
+*/
+body {
+  background: rgba(145, 141, 141, 0.87);
 }
-div {
-  border: 3px solid black;
-  background: green;
-  margin-top: 40px;
+.banner {
+  background: rgb(54, 49, 49);
+}
+h1 {
+  color: white;
   text-align: center;
-  font-style: italic;
+  text-decoration: underline;
 }
-.one {
-  background: hotpink;
+@media screen and (min-width: 575px) {
+  body {
+    background: crimson;
+  }
+  .banner {
+    background: cyan;
+  }
+  h1 {
+    color: blue;
+    font-size: 60px;
+  }
 }
-.two {
-  background: lightblue;
-  position: relative;
-  /* top: 50px;
-  left: 20rem;
-  right: 50%;*/
-}
-.special {
-  background: lightsalmon;
-  font-size: 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 20px;
+@media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: white;
+    font-size: 60px;
+  }
 }

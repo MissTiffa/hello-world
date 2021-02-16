@@ -1,42 +1,28 @@
-/*Media Queries
-Responsive Design
-Style Elements On Different Screen Sizes
-min-width: --starting from
-max-width: --up to
-Mobile First
+/*Z-index---Z-Axis
+position static does not work
 */
-body {
-  background: rgba(145, 141, 141, 0.87);
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
 }
 .banner {
-  background: rgb(54, 49, 49);
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px solid black;
+  position: relative;
 }
-h1 {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
+.one {
+  top: 0;
+  left: 0;
+  /*z-index: 0;*/
 }
-@media screen and (min-width: 575px) {
-  body {
-    background: crimson;
-  }
-  .banner {
-    background: cyan;
-  }
-  h1 {
-    color: blue;
-    font-size: 60px;
-  }
+.two {
+  top: 20%;
+  left: 45%;
 }
-@media screen and (max-width: 768px) {
-  body {
-    background: green;
-  }
-  .banner {
-    background: yellow;
-  }
-  h1 {
-    color: white;
-    font-size: 60px;
-  }
+.three {
+  top: 55%;
+  left: 80%;
 }

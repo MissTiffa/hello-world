@@ -1,19 +1,37 @@
-.banner {
-  border: 5px solid black;
-  padding: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*other ways for floating image
-img {
+/*Other way 
+div {
   float: left;
-}*/
+  height: 400px;
+  width: 33.33%;
+}
 .one {
-  float: left;
+  background: chartreuse;
 }
 .two {
-  float: right;
-  height: 300px;
+  background: crimson;
 }
-p {
-  clear: right;
-  text-align: center;
+and so on...
+*/
+.one {
+  float: left;
+  background: chartreuse;
+  height: 200px;
+  width: 33.33%;
+}
+.two {
+  float: left;
+  background: crimson;
+  height: 200px;
+  width: 33.33%;
+}
+.three {
+  float: left;
+  background: darkmagenta;
+  height: 200px;
+  width: 33.33%;
 }

@@ -1,23 +1,19 @@
-/* Combining Linear-Gradient and Background Image*/
-
-div {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 60px;
-  color: black;
-}
 .banner {
-  background: url("./images/beach.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  border: 5px solid black;
+  padding: 10px;
 }
-.header {
-  background: linear-gradient(rgb(243, 247, 6), rgba(0, 0, 0, 0));
-  border: 5px green solid;
-  border-style: dotted;
+/*other ways for floating image
+img {
+  float: left;
+}*/
+.one {
+  float: left;
+}
+.two {
+  float: right;
+  height: 300px;
+}
+p {
+  clear: right;
+  text-align: center;
 }

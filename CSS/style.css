@@ -1,37 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/*Other way 
+/*Position Value, Relative, and Absolute*/
 div {
-  float: left;
-  height: 400px;
-  width: 33.33%;
+  border: 3px solid black;
+  background: green;
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
 }
 .one {
-  background: chartreuse;
+  background: hotpink;
 }
 .two {
-  background: crimson;
+  background: lightblue;
+  position: relative;
+  /* top: 50px;
+  left: 20rem;
+  right: 50%;*/
 }
-and so on...
-*/
-.one {
-  float: left;
-  background: chartreuse;
-  height: 200px;
-  width: 33.33%;
-}
-.two {
-  float: left;
-  background: crimson;
-  height: 200px;
-  width: 33.33%;
-}
-.three {
-  float: left;
-  background: darkmagenta;
-  height: 200px;
-  width: 33.33%;
+.special {
+  background: lightsalmon;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 20px;
 }

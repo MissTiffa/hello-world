@@ -1,50 +1,11 @@
-/*CSS Variables AKA Custom Properties 
-hold a value and reuse it
---varname:value
-property:var(--varname)
-scope
-:root{} === global
-element === local
-any property
-
-.heading {
+/*Icons
+Font-Awesome Icons
+Free, Easy to get up running, simple syntax*/
+.fa-android {
+  color: crimson;
+  font-size: 4rem;
+}
+.android-icon {
+  font-size: 4rem;
   color: blue;
-}
-.text {
-  color: rgb(245, 241, 9);
-}
-.main-text {
-  color: blueviolet;
-}
-.second-heading {
-  color: chartreuse;
-}
-.third-heading {
-  color: coral;
-}
-*/
-:root {
-  --primaryColor: #ff1155;
-  --secondaryColor: #0bf532;
-  --thirdColor: #f00ab6;
-  --mainTransition: all 0.4s linear;
-}
-.heading {
-  color: var(--primaryColor);
-}
-.second-heading {
-  color: var(--primaryColor);
-  transition: var(--mainTransition);
-}
-.second-heading:hover {
-  color: var(--secondaryColor);
-}
-div {
-  --primaryRed: royalblue;
-}
-.main-text {
-  color: var(--primaryRed);
-}
-.third-heading {
-  color: var(--thirdColor);
 }

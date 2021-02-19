@@ -1,30 +1,50 @@
-/*Animation*/
+/*CSS Variables AKA Custom Properties 
+hold a value and reuse it
+--varname:value
+property:var(--varname)
+scope
+:root{} === global
+element === local
+any property
 
+.heading {
+  color: blue;
+}
+.text {
+  color: rgb(245, 241, 9);
+}
+.main-text {
+  color: blueviolet;
+}
+.second-heading {
+  color: chartreuse;
+}
+.third-heading {
+  color: coral;
+}
+*/
+:root {
+  --primaryColor: #ff1155;
+  --secondaryColor: #0bf532;
+  --thirdColor: #f00ab6;
+  --mainTransition: all 0.4s linear;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
 div {
-  width: 200px;
-  height: 100px;
-  color: white;
-  margin: 10px;
+  --primaryRed: royalblue;
 }
-.animation {
-  background: blue;
-  animation: animate 5s 2;
-  animation-fill-mode: forwards;
+.main-text {
+  color: var(--primaryRed);
 }
-@keyframes animate {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    transform: translateX(200px);
-    opacity: 0.25;
-  }
-  50% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 0.5;
-  }
+.third-heading {
+  color: var(--thirdColor);
 }

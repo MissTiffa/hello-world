@@ -1,11 +1,21 @@
-/*Icons
-Font-Awesome Icons
-Free, Easy to get up running, simple syntax*/
-.fa-android {
-  color: crimson;
-  font-size: 4rem;
+/*
+text-shadow
+box-shadow
+*/
+h1 {
+  text-shadow: 1px 1px 3px red;
 }
-.android-icon {
-  font-size: 4rem;
-  color: blue;
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
+  transition: all 0.5s linear;
 }
+.box:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px black;
+  -moz-box-shadow: 10px 10px 5px 0pxblack;
+  box-shadow: 10px 10px 5px 0px black;
+}
+/*you can also find a free customize box shadow online, there are tons you can find online*/

@@ -1,28 +1,25 @@
-/*Z-index---Z-Axis
-position static does not work
-*/
+/*pseudo elements::before::after Content not element 
+content: ''---required
+img doesn't work*/
+p::before {
+  content: "Hello";
+  font-weight: bold;
+  font-size: 2rem;
+  color: blueviolet;
+}
+p::after {
+  content: "after";
+  font-weight: bold;
+  font-size: 2rem;
+  color: greenyellow;
+  background: black;
+}
+div {
+  width: 60vw;
+  margin: 100px auto;
+  border: 2px solid black;
+}
 img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-}
-.banner {
-  margin: 20px;
-  width: 80vw;
-  height: 70vh;
-  border: 5px solid black;
-  position: relative;
-}
-.one {
-  top: 0;
-  left: 0;
-  /*z-index: 0;*/
-}
-.two {
-  top: 20%;
-  left: 45%;
-}
-.three {
-  top: 55%;
-  left: 80%;
+  width: 100%;
+  display: block;
 }

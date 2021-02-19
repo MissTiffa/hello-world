@@ -1,13 +1,16 @@
-/*:link :visited :hover :active*/
-a:link {
-  color: aqua;
+/*:root root element of the document
+html element
+general styles
+css variables*/
+:root {
+  background: royalblue;
 }
-a:visited {
-  color: red;
+h1 {
+  font-size: 2rem;
 }
-a:hover {
-  color: blue;
+.absolute {
+  font-size: 24px;
 }
-a:active {
-  color: green;
+.responsive {
+  font-size: 1.5rem;
 }

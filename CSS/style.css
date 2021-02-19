@@ -7,13 +7,13 @@ div {
 }
 .one {
   background: red;
-  transform: rotateY(100deg);
+  transform: skewX(-20deg);
 }
 .two {
   background: green;
-  transform: rotateZ(135deg);
+  transform: skewY(-20deg);
 }
 .three {
   background: royalblue;
-  transform: rotateX(20deg);
+  transform: skew(40deg);
 }

@@ -7,13 +7,13 @@ div {
 }
 .one {
   background: red;
-  transform: scaleX(0.5);
+  transform: rotateY(100deg);
 }
 .two {
   background: green;
-  transform: scaleY(2);
+  transform: rotateZ(135deg);
 }
 .three {
   background: royalblue;
-  transform: scale(0.5, 0.5);
+  transform: rotateX(20deg);
 }

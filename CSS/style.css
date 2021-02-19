@@ -1,8 +1,8 @@
-/*  Descendant and Child Combinators*/
+/*::first-line :: ::first-letter*/
 
-div h1 {
-  color: crimson;
+p::first-line {
+  font-size: bold;
 }
-div > h1 {
-  color: blue;
+p::first-letter {
+  font-size: 3rem;
 }

@@ -1,8 +1,13 @@
-/*::first-line :: ::first-letter*/
+/*:hover*/
 
-p::first-line {
-  font-size: bold;
+p:hover {
+  font-size: 20px;
+  color: aqua;
 }
-p::first-letter {
-  font-size: 3rem;
+.header:hover {
+  background: green;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
 }

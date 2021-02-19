@@ -1,17 +1,8 @@
-/*Basic Selectors*/
-* {
+/*  Descendant and Child Combinators*/
+
+div h1 {
+  color: crimson;
+}
+div > h1 {
   color: blue;
-}
-#heading {
-  font-size: 40px;
-  text-transform: uppercase;
-  color: green;
-}
-.heading {
-  font-size: 20px;
-  text-transform: capitalize;
-  color: brown;
-}
-p {
-  letter-spacing: 20px;
 }

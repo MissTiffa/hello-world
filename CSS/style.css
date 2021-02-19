@@ -1,13 +1,13 @@
-/*:hover*/
-
-p:hover {
-  font-size: 20px;
+/*:link :visited :hover :active*/
+a:link {
   color: aqua;
 }
-.header:hover {
-  background: green;
-  color: black;
+a:visited {
+  color: red;
 }
 a:hover {
-  text-decoration: none;
+  color: blue;
+}
+a:active {
+  color: green;
 }

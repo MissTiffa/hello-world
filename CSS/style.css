@@ -1,21 +1,11 @@
 /*
-text-shadow
-box-shadow
+input
 */
-h1 {
-  text-shadow: 1px 1px 3px red;
+* {
+  background: lightcoral;
+  font: 10px Verdana;
+  padding: 10px;
 }
-.box {
-  width: 200px;
-  height: 100px;
-  background: blue;
-  margin: 20px;
-  box-shadow: 3px 5px 5px green;
-  transition: all 0.5s linear;
+label {
+  font: 30px bold;
 }
-.box:hover {
-  -webkit-box-shadow: 10px 10px 5px 0px black;
-  -moz-box-shadow: 10px 10px 5px 0pxblack;
-  box-shadow: 10px 10px 5px 0px black;
-}
-/*you can also find a free customize box shadow online, there are tons you can find online*/

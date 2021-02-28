@@ -9,7 +9,18 @@
  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
- <h1>Heading</h1>
- <div class="box"></div>
+<label for="item-sizes-choice">Choose a sizes:</label>
+<input list="item-sizes-choice" id="sizes-choice" name="item-sizes-choice" />
+
+<datalist id="item-sizes-choice">
+ <option value="X-Small">
+ <option value="Small">
+ <option value="Medium">
+ <option value="Large">
+ <option value="Extra-Large">
+</datalist>
+<button class="favorite styled" type="button">
+ Enter
+</button>
 </body>
 </html>
